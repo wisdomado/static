@@ -1,0 +1,46 @@
+{
+  "cookieSecret": "oEeRj6rxO69d699zWsmC2W85p2Ch0n4F",
+  "sessionDurationInDays": 30,
+  "google": {
+    "clientID": "782292454538-rciq6m2eg7qofb7ptd63pa1mkq0e9uli.apps.googleusercontent.com",
+    "clientSecret": "egBjBxcLYbKCVQdvm_dflPNq",
+    "callbackURL": "/auth/google-callback",
+    "passReqToCallback": true
+  },
+  "linkedIn": {
+    "clientID": "77chexmowru601",
+    "clientSecret": "szdC8lN2s2SuMSy8",
+    "callbackURL": "/auth/linkedin/callback",
+    "scope": ["r_fullprofile", "r_emailaddress", "r_network"],
+    "passReqToCallback": true
+  },
+  "sendgrid": {
+    "user": "hslogin",
+    "password": "hspassword00"
+  },
+  "expressMiddleware": {
+    "timeout": {
+      "value": 30,
+      "dimension": "seconds"
+    }
+  },
+  "oauth": {
+    "tokenLife": 2592000000,
+    "web": {
+      "appName": "Brainify Backoffice",
+      "clientId": "web_client_id",
+      "clientSecret": "web_client_secret"
+    }
+  },
+  "logglyToken": null,
+  "defaultAdmins": "mitzkevich@gmail.com,sebastien.bruhat@brainify.it",
+  "timeZone": "UTC",
+  "useIntercom": true,
+  "reportsServerUrl": "http://92.222.64.30",
+  "reportsApiUrl": "http://92.222.64.30:8041",
+  "reportsApiUrl2": "http://5.196.84.151:8041",
+  "campaignServerUrl": "http://5.196.84.179:9002",
+  "socketServerUrl": "http://preprod.brainify.it/",
+  "oauthServerUrl": "http://127.0.0.1:8081",
+  "usersApiUrl": "http://5.196.84.179:9001"
+}
